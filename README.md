@@ -10,3 +10,5 @@
 [Лекция 35. Аллокаторы, allocator_traits](https://github.com/yokithai17/cpp_lectures_mesherin/tree/main/lec35)
 
 [Лекция 36. Allocator-aware контейнеры. Перегрузка new и delete.](https://github.com/yokithai17/cpp_lectures_mesherin/tree/main/lec36)
+
+[Лекция 37. Разновидности и реализации operator new. Выравниевание. Битовые поля](https://github.com/yokithai17/cpp_lectures_mesherin/tree/main/lec37)
