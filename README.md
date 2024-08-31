@@ -12,3 +12,5 @@
 [Лекция 36. Allocator-aware контейнеры. Перегрузка new и delete.](https://github.com/yokithai17/cpp_lectures_mesherin/tree/main/lec36)
 
 [Лекция 37. Разновидности и реализации operator new. Выравниевание. Битовые поля](https://github.com/yokithai17/cpp_lectures_mesherin/tree/main/lec37)
+
+[Лекция 38. Scooped allocators. Атрибуты. Move-семантика (начало)](https://github.com/yokithai17/cpp_lectures_mesherin/tree/main/lec38)
