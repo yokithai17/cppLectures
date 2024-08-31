@@ -1,0 +1,1 @@
+## Функция std::move. Определение lvalue и rvalue. Rvalue-ссылки
