@@ -3,6 +3,10 @@
 
 До 33 ...
 
+[Лекция 29. Внутреннее устройство deque. Итераторы. Виды итераторов.](https://github.com/yokithai17/cpp_lectures_mesherin/tree/main/lec29)
+
+[Лекция 30. Реализация итераторов. Адаптеры над итераторами](https://github.com/yokithai17/cpp_lectures_mesherin/tree/main/lec30)
+
 [Лекция 33. Потоковые Иттераторы. Манипуляторы над потокам.](https://github.com/yokithai17/cpp_lectures_mesherin/tree/main/lec33)
 
 [Лекция 34. Внутренее устройство std::unordered_map](https://github.com/yokithai17/cpp_lectures_mesherin/tree/main/lec34)
