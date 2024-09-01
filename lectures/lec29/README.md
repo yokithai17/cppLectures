@@ -55,7 +55,7 @@ class stack;
 
 Поймем какие есть категорие.
 
-```
+```mermaid
 graph TD;
     InputIterator-->| forward_list u_set u_map|ForwardIterator;
     ForwardIterator-->|-- set map list|BidirectionalIterator;
