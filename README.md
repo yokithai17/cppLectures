@@ -3,17 +3,17 @@
 
 До 33 ...
 
-[Лекция 29. Внутреннее устройство deque. Итераторы. Виды итераторов.](https://github.com/yokithai17/cpp_lectures_mesherin/tree/main/lec29)
+[Лекция 29. Внутреннее устройство deque. Итераторы. Виды итераторов.](https://github.com/yokithai17/cpp_lectures_mesherin/tree/main/lectures/lec29)
 
-[Лекция 30. Реализация итераторов. Адаптеры над итераторами](https://github.com/yokithai17/cpp_lectures_mesherin/tree/main/lec30)
+[Лекция 30. Реализация итераторов. Адаптеры над итераторами](https://github.com/yokithai17/cpp_lectures_mesherin/tree/main/lectures/lec30)
 
-[Лекция 33. Потоковые Иттераторы. Манипуляторы над потокам.](https://github.com/yokithai17/cpp_lectures_mesherin/tree/main/lec33)
+[Лекция 33. Потоковые Иттераторы. Манипуляторы над потокам.](https://github.com/yokithai17/cpp_lectures_mesherin/tree/main/lectures/lec33)
 
-[Лекция 34. Внутренее устройство std::unordered_map](https://github.com/yokithai17/cpp_lectures_mesherin/tree/main/lec34)
+[Лекция 34. Внутренее устройство std::unordered_map](https://github.com/yokithai17/cpp_lectures_mesherin/tree/main/lectures/lec34)
 
-[Лекция 35. Аллокаторы, allocator_traits](https://github.com/yokithai17/cpp_lectures_mesherin/tree/main/lec35)
+[Лекция 35. Аллокаторы, allocator_traits](https://github.com/yokithai17/cpp_lectures_mesherin/tree/main/lectures/lec35)
 
-[Лекция 36. Allocator-aware контейнеры. Перегрузка new и delete.](https://github.com/yokithai17/cpp_lectures_mesherin/tree/main/lec36)
+[Лекция 36. Allocator-aware контейнеры. Перегрузка new и delete.](https://github.com/yokithai17/cpp_lectures_mesherin/tree/main/lectures/lec36)
 
 [Лекция 37. Разновидности и реализации operator new. Выравниевание. Битовые поля](https://github.com/yokithai17/cpp_lectures_mesherin/tree/main/lec37)
 
