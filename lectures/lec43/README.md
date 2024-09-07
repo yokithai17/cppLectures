@@ -1,0 +1,1 @@
+# Вывод типов auto, decltype, decltype(auto)

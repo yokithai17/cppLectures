@@ -22,3 +22,10 @@
 [Лекция 39. Функция std::move. Определение lvalue и rvalue. Rvalue-ссылки](https://github.com/yokithai17/cpp_lectures_mesherin/tree/main/lectures/lec39)
 
 [Лекция 40. Ссылочные квалификаторы. Универсальная ссылки. Функция std::forward](https://github.com/yokithai17/cpp_lectures_mesherin/tree/main/lectures/lec40)
+
+[Лекция 41. Реализация std::move и std::forward. Реализация push_back с move-семантикой](https://github.com/yokithai17/cpp_lectures_mesherin/tree/main/lectures/lec41)
+
+
+[Лекция 42. Expired values. Copy elision. Return value optimization](https://github.com/yokithai17/cpp_lectures_mesherin/tree/main/lectures/lec42)
+
+[Лекция 43. Вывод типов auto, decltype, decltype(auto)](https://github.com/yokithai17/cpp_lectures_mesherin/tree/main/lectures/lec43)
