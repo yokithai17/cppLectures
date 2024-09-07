@@ -15,10 +15,10 @@
 
 [Лекция 36. Allocator-aware контейнеры. Перегрузка new и delete.](https://github.com/yokithai17/cpp_lectures_mesherin/tree/main/lectures/lec36)
 
-[Лекция 37. Разновидности и реализации operator new. Выравниевание. Битовые поля](https://github.com/yokithai17/cpp_lectures_mesherin/tree/main/lec37)
+[Лекция 37. Разновидности и реализации operator new. Выравниевание. Битовые поля](https://github.com/yokithai17/cpp_lectures_mesherin/tree/main/lectures/lec37)
 
-[Лекция 38. Scooped allocators. Атрибуты. Move-семантика (начало)](https://github.com/yokithai17/cpp_lectures_mesherin/tree/main/lec38)
+[Лекция 38. Scooped allocators. Атрибуты. Move-семантика (начало)](https://github.com/yokithai17/cpp_lectures_mesherin/tree/main/lectures/lec38)
 
-[Лекция 39. Функция std::move. Определение lvalue и rvalue. Rvalue-ссылки](https://github.com/yokithai17/cpp_lectures_mesherin/tree/main/lec39)
+[Лекция 39. Функция std::move. Определение lvalue и rvalue. Rvalue-ссылки](https://github.com/yokithai17/cpp_lectures_mesherin/tree/main/lectures/lec39)
 
-[Лекция 40. Ссылочные квалификаторы. Универсальная ссылки. Функция std::forward](https://github.com/yokithai17/cpp_lectures_mesherin/tree/main/lec40)
+[Лекция 40. Ссылочные квалификаторы. Универсальная ссылки. Функция std::forward](https://github.com/yokithai17/cpp_lectures_mesherin/tree/main/lectures/lec40)
