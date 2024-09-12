@@ -31,3 +31,7 @@
 [Лекция 43. Вывод типов auto, decltype, decltype(auto)](https://github.com/yokithai17/cpp_lectures_mesherin/tree/main/lectures/lec43)
 
 [Лекция 44. Deducing this. CTAD. Structured bindings, tuples](lectures/lec44/)
+
+[Лекция 46. Внутреннее устройство shared_ptr и weak_ptr](lectures/lec46/)
+
+[Лекция 47. Type erasure, std::any. Окончание реализации shared_ptr](lectures/lec47/)
