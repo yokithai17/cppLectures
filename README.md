@@ -29,3 +29,5 @@
 [Лекция 42. Expired values. Copy elision. Return value optimization](https://github.com/yokithai17/cpp_lectures_mesherin/tree/main/lectures/lec42)
 
 [Лекция 43. Вывод типов auto, decltype, decltype(auto)](https://github.com/yokithai17/cpp_lectures_mesherin/tree/main/lectures/lec43)
+
+[Лекция 44. Deducing this. CTAD. Structured bindings, tuples](lectures/lec44/)
