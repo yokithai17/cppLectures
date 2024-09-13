@@ -56,3 +56,8 @@ shared_ptr<T> make_shared(Args&&... args) {
     auto* p = new typename shared_ptr<T>::ControlBlock{T(std::forward<Args>(args)...), 1};
     return shared_ptr<T>(p);
 }
+
+// 12.4 weak_ptr
+
+// 12.5 enable_shared_from_this
+
