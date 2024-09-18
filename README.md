@@ -35,3 +35,5 @@
 [Лекция 46. Внутреннее устройство shared_ptr и weak_ptr](lectures/lec46/)
 
 [Лекция 47. Type erasure, std::any. Окончание реализации shared_ptr](lectures/lec47/)
+
+[Лекция 47. Type erasure, std::any. Окончание реализации shared_ptr](lectures/lec47/)

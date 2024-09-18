@@ -6,15 +6,24 @@
 template <typename T>
 class shared_ptr {
     T* ptr;
-    СontrolBlock* count;
+    BaseControlBlock* cb;
 
-    struct ControlBlock {
-    size_t shared_count;
-    size_t weak_count;
+    struct BaseControlBlock {
+        size_t shared_count;
+        size_t weak_count;
+        virtual ~BaseControlBlock() = 0;
     };
 
-    struct ControlBlockWithObject : ControlBlock {
-        T value;
+    template <typename U, typename Deleter, typename Alloc>
+    struct ControlBlockRegular: BaseControlBlock {
+        Deleter del;
+        Alloc alloc;
+    };
+
+    template <typename U, typename Alloc>
+    struct ControlBlockMakeShared : BaseControlBlock {
+        U value;
+        Alloc alloc;
     };
 
     template <typename U, typename... Args>
@@ -22,9 +31,16 @@ class shared_ptr {
 
     shared_ptr(ControlBlock* cp); // TODO
 
+    template <typename Deleter>
+    shared_ptr( )
+
 public:
     shared_ptr(T* ptr)
-        : ptr(ptr), count(new size_t(1)) {}
+        : ptr(ptr), count(new size_t(1)) {
+        if constexpr (std::is_base_of_v<enable_shared_from_this<T>, T>) {
+            ptr->sptr =  *this;
+        }
+    }
     
     shared_ptr(const shared_ptr& other)
         : ptr(other.ptr) , count(other.count) {
@@ -57,7 +73,36 @@ shared_ptr<T> make_shared(Args&&... args) {
     return shared_ptr<T>(p);
 }
 
-// 12.4 weak_ptr
+template <typename T, typename Alloc, typename... Args>
+shared_ptr<T> allocate_shared(const Alloc& alloc, Args&&... args) {
+    using BlockAlloc = typename std::allocator_traits<Alloc>
+            ::rebind_alloc<ControlBlockMakeShared<T, Alloc>>;
+    BlockAlloc ba = alloc;
+    auto* ptr = ba.allocate(1);
+    //aloc traits
+    ba.construct(ptr, 1, 0, std::forward<Args>(args..)..., alloc);
+    return ...; // TODO private shared_ptr construct.
+}
+
+// 12.4 weak ptr
 
 // 12.5 enable_shared_from_this
+// CRIP
 
+struct S : public std::enable_shared_from_this<S> {
+    std::shared_ptr<S> getObject() {
+        return shared_from_this();
+    }
+};
+
+template <typename T>
+struct enable_shared_from_this {
+    shared_ptr<T> sptr;
+    shared_ptr<T> shared_from_this() const;
+
+    enable_shared_from_this() {}
+
+
+    template <typename U>
+    friend class shared_ptr;
+};
