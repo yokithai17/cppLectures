@@ -35,3 +35,9 @@
 [Лекция 46. Внутреннее устройство shared_ptr и weak_ptr](lectures/lec46/)
 
 [Лекция 47. Type erasure, std::any. Окончание реализации shared_ptr](lectures/lec47/)
+
+[Лекция 48. SFINAE, std::enable_if](lectures/lec48/)
+
+[Лекция 49. Реализация type_traits с помощью SFINAE](lectures/lec49/)
+
+[Лекция 50. SFINAE-friendliness. Constraints and requirements](lectures/lec50/)
