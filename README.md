@@ -41,3 +41,5 @@
 [Лекция 49. Реализация type_traits с помощью SFINAE](lectures/lec49/)
 
 [Лекция 50. SFINAE-friendliness. Constraints and requirements](lectures/lec50/)
+
+[Лекция 51. Requires-выражения. Концепты](lectures/lec51)
