@@ -43,3 +43,5 @@
 [Лекция 50. SFINAE-friendliness. Constraints and requirements](lectures/lec50/)
 
 [Лекция 51. Requires-выражения. Концепты](lectures/lec51)
+
+[Лекция 52. Концепты (окончание). Лямбда-функции (начало)](lectures/lec52/)
