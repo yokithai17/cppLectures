@@ -1,4 +1,5 @@
 #include <iostream>
+#include <list>
 
 template <typename T>
 auto call_f(const T& t) { // not SFINAE-friendly
