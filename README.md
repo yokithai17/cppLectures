@@ -53,3 +53,5 @@
 [Лекция 55. std::function и ее реализация. std::invoke](lectures/lec55)
 
 [Лекция 56. Проблемы std::function. std::bind, std::reference_wrapper](lectures/lec56/)
+
+[Лекция 57. Unions, std::variant, std::visit. Overload pattern](lectures/lec57/)
