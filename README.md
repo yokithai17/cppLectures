@@ -15,7 +15,7 @@
 
 [Лекция 36. Allocator-aware контейнеры. Перегрузка new и delete.](lectures/lec36)
 
-[Лекция 37. Разновидности и реализации operator new. Выравниевание. Битовые поля]lectures/lec37)
+[Лекция 37. Разновидности и реализации operator new. Выравниевание. Битовые поля](lectures/lec37)
 
 [Лекция 38. Scooped allocators. Атрибуты. Move-семантика (начало)](lectures/lec38)
 
